@@ -101,7 +101,7 @@
     setInterval(update, 1000)
     function update() {
       
-      var one = DateTime.fromISO('2018-02-13T06:05:00Z');
+      var one = DateTime.fromISO('2018-02-13T06:00:00Z');
       var ct = DateTime.local();
       var int = Interval.fromDateTimes(one, ct).length('hours', true);
       var i = Math.ceil(int - (11 * (Math.floor(int / 11))));
